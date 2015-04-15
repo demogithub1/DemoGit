@@ -1,9 +1,12 @@
 public class CaseDetailOverrideExtension
 {
+    private String caseid;
+
     private final Case record;
     private Case m_caseDetail;
     private string m_recordTypeName;   
-    
+
+        
     //start changes for CMI 2014
     //variable to store CIN coming in URL.
     private string CIN;
